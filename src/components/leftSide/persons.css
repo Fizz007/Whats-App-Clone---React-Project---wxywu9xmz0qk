@@ -1,0 +1,53 @@
+.list-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.users{
+    background-color: purple;
+    color: white;
+    height: 40px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-user{
+    background-color: rgb(115, 255, 0);
+    font-weight: 600;
+    color: black;
+}
+
+
+.users:hover{
+    cursor: pointer;
+}
+
+
+.display-users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.users .number-of-message{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}

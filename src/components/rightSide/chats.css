@@ -1,0 +1,87 @@
+.chat-wrapper .active-user {
+  align-self: flex-end;
+  height: 30px;
+  width: max-content;
+  padding: 10px 20px;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 50px;
+  margin-top: 0.8rem;
+  font-size: 20px;
+}
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 1rem 1rem;
+  /* max-width: 100rem; */
+}
+.chat-wrapper .non-active-user {
+  align-self: flex-start;
+  height: 30px;
+  width: max-content;
+  padding: 10px 20px;
+  background-color: lightgrey;
+  color: black;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-top: 0.8rem;
+  font-size: 20px;
+}
+
+.user-profile .img-name {
+  height: 50px;
+  width: 100%;
+  background-color: lightgrey;
+  color: purple;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user-profile .img-name img {
+  margin-left: 40px;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+}
+.user-profile .img-name span {
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.user-profile .display-message {
+  overflow-y: scroll;
+  height: 520px;
+}
+
+.user-profile .input-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0 2rem 0.2rem 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 0 30px 0 30px ;
+    margin-bottom: 5px;
+    /* margin-top: 80px; */
+}
+
+.user-profile .input-message input {
+  width: 95%;
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+  border-radius: 0 0 0 30px;
+
+}
+.user-profile .input-message .send-icon{
+    height: 30px;
+    width: 30px;
+}
+
